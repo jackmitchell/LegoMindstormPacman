@@ -1,0 +1,306 @@
+/**
+ *
+ * functions.c
+ *
+ * Functions for control of the robot
+ *
+ * Jack Mitchell <jgm11@le.ac.uk>
+ *
+ **/
+
+#include "kernel.h"
+#include "kernel_id.h"
+#include "ecrobot_interface.h"
+
+#include "defines.h"
+#include "functions.h"
+
+/* Set both motor speeds in one easy function */
+void set_both_motor_speed(S8 left, S8 right) {
+
+    nxt_motor_set_speed(MOTOR_RIGHT, right, 1);
+    nxt_motor_set_speed(MOTOR_LEFT, left, 1);
+
+}
+
+/* Set motor thresholds */
+void set_motor_threshold(U8 l_min, U8 l_max, U8 r_min, U8 r_max) {
+
+	if (motor_left < l_min) {	motor_left = l_min; }
+
+	if (motor_left > l_max) { motor_left = l_max; }
+
+	if (motor_right < r_min) { motor_right = r_min; }
+
+	if (motor_right > r_max) { motor_right = r_max; }
+
+}
+
+/* Query if it is viable to make a turn according to Tremauxes' Algorithm */
+int query_turn(U8 x, U8 y) {
+
+  // Check turn
+  
+  if ( map[x][y] < 2 ) {
+  
+    return true;
+
+  }
+
+  else { return false; }
+
+}
+
+/* Change the position of the robot in the map array */
+int change_position(U8 check) {
+
+  U8 temp_x_pos = x_position;
+  U8 temp_y_pos = y_position;
+  U8 temp_orientation;
+
+	switch(orientation) {
+				
+		case NORTH:
+	
+			switch(make_turn) {
+
+				case RIGHT:
+
+					temp_x_pos++;
+          temp_orientation = EAST;   
+					break;
+
+				case LEFT:
+
+					temp_x_pos--;
+					temp_orientation = WEST;
+					break;
+
+				case FORWARD:
+
+					temp_y_pos++;
+					break;
+
+			}
+
+		break;
+
+		case EAST:
+
+			switch(make_turn) {
+
+				case RIGHT:
+
+					temp_y_pos--;
+					temp_orientation = SOUTH;
+					break;
+
+				case LEFT:
+
+					temp_y_pos++;
+					temp_orientation = NORTH; 
+					break;
+
+				case FORWARD:
+
+					temp_x_pos++;
+					break;
+
+			}
+
+		break;
+
+		case SOUTH:
+
+			switch(make_turn) {
+
+				case RIGHT:
+
+					temp_x_pos--;
+					temp_orientation = WEST;
+					break;
+
+				case LEFT:
+
+					temp_x_pos++;
+					temp_orientation = EAST; 
+					break;
+
+				case FORWARD:
+
+					temp_y_pos--;
+					break;
+
+			}
+
+		break;
+
+		case WEST:
+
+			switch(make_turn) {
+
+				case RIGHT:
+
+					temp_y_pos++;
+					temp_orientation = NORTH;
+					break;
+
+				case LEFT:
+
+					temp_y_pos--;
+					temp_orientation = SOUTH;
+					break;
+
+				case FORWARD:
+
+					temp_x_pos--;
+					break;
+
+			}
+
+		break;
+
+	}
+
+	/* Check if we are testing the position or altering the position 
+	and that the move is valid according to the algorithm */
+  if (query_turn(temp_x_pos,temp_y_pos)) {
+
+    if (check == ALTER) {
+
+      x_position = temp_x_pos;
+      y_position = temp_y_pos;
+      orientation = temp_orientation;
+
+    }
+    
+    return true;
+
+  }
+  else {
+
+    checked[make_turn] = 1;
+    return false;
+  
+  }  
+
+}
+
+void robot_follow(U8 direction, U8 line_side) {
+
+  if (line_side == FOLLOW_RIGHT) {
+
+    /* Set motor speeds depending on direction */
+    switch(direction) {
+
+      case UNSURE:
+
+        motor_right = motor_right - 1;
+        motor_left = motor_left - 1;
+        break;
+
+      case SEARCH:
+      
+        motor_right = motor_right + 15;
+        motor_left = 20;
+        break;
+
+      case FOLLOW:
+
+        if (old_color != BLACK || old_color != UNSURE) {
+          motor_right = 25;
+          motor_left = 28;
+        }
+
+        motor_right = motor_right + 1;
+        motor_left = motor_left + 2;
+        break;
+
+      default:
+        //change nothing
+        break;
+
+    }
+
+    /* Stop motors going above or below certain speed thresholds */
+  	set_motor_threshold(25,60,25,50);  
+
+  }
+
+  else if (line_side == FOLLOW_LEFT) {
+
+    /* Set motor speeds depending on direction */
+    switch(direction) {
+
+      case UNSURE:
+  
+        motor_right = motor_right - 1;
+        motor_left = motor_left - 1;
+        break;
+
+      case SEARCH:
+      
+        motor_right = 20;
+        motor_left = motor_left + 15;
+        break;
+
+      case FOLLOW:
+
+        if (old_color != BLACK || old_color != UNSURE) {
+          motor_right = 28;
+          motor_left = 25;
+        }
+
+        motor_right = motor_right + 2;
+        motor_left = motor_left + 1;
+        break;
+
+      default:
+        //change nothing
+        break;
+
+    }
+
+    /* Stop motors going above or below certain speed thresholds */ 
+		set_motor_threshold(25,50,25,60);
+
+  }
+
+  /* set motor speeds */
+  set_both_motor_speed(motor_left,motor_right);
+}
+
+/* Checks the color sensor */
+void check_color() {
+
+  S16 rgb[3];
+
+  /* get RGB values from sensor */
+  ecrobot_get_nxtcolorsensor_rgb(LIGHT_PORT, rgb);
+  
+  S16 red = rgb[0];
+  S16 green = rgb[1];
+  S16 blue = rgb[2];
+
+  /* Keep information on the last known color */
+  if ( color != UNKNOWN ) {
+    old_color = color;
+  }
+
+  U8 x=0;
+
+  /* Loop through colors and check values */
+  while ( x < NUM_COLORS ) {
+
+    if  ((  red   > colorCal[x][0]  &&  red   < colorCal[x][1]) && 
+        (   green > colorCal[x][2]  &&  green < colorCal[x][3]) && 
+        (   blue  > colorCal[x][4]  &&  blue  < colorCal[x][5]))
+    {
+      color = x;
+    }
+
+    x++;
+
+  }
+
+}

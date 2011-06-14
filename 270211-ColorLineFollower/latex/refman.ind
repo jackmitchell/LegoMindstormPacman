@@ -1,0 +1,522 @@
+\begin{theindex}
+
+  \item {\_\discretionary {-}{}{}\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {\_\discretionary {-}{}{}\_\discretionary {-}{}{}TCOUNT\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ManageState}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadButtons}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadColour}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+
+  \indexspace
+
+  \item {almcb\_\discretionary {-}{}{}almval}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {almcb\_\discretionary {-}{}{}cycle}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {almcb\_\discretionary {-}{}{}next}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {almcb\_\discretionary {-}{}{}prev}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {alminib\_\discretionary {-}{}{}almval}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {alminib\_\discretionary {-}{}{}autosta}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {alminib\_\discretionary {-}{}{}cback}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {alminib\_\discretionary {-}{}{}cntid}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {alminib\_\discretionary {-}{}{}cycle}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {ALTER}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {appmode1}
+    \subitem {kernel\_\discretionary {-}{}{}id.h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {BLACK}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {black\_\discretionary {-}{}{}count}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {BLUE}
+    \subitem {defines.h}, \hyperpage{4}
+
+  \indexspace
+
+  \item {CALIBRATE}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {change\_\discretionary {-}{}{}position}
+    \subitem {functions.c}, \hyperpage{6}
+    \subitem {functions.h}, \hyperpage{8}
+  \item {check\_\discretionary {-}{}{}color}
+    \subitem {functions.c}, \hyperpage{6}
+    \subitem {functions.h}, \hyperpage{9}
+  \item {checked}
+    \subitem {functions.h}, \hyperpage{10}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {cntcb\_\discretionary {-}{}{}almque}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {cntcb\_\discretionary {-}{}{}curval}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {cntinib\_\discretionary {-}{}{}maxval}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {cntinib\_\discretionary {-}{}{}maxval2}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {cntinib\_\discretionary {-}{}{}mincyc}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {cntinib\_\discretionary {-}{}{}tickbase}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {color}
+    \subitem {functions.h}, \hyperpage{10}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {color\_\discretionary {-}{}{}cal\_\discretionary {-}{}{}state}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {colorCal}
+    \subitem {functions.h}, \hyperpage{10}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {CORNER}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+
+  \indexspace
+
+  \item {DeclareCounter}
+    \subitem {lineFollower.c}, \hyperpage{16}
+  \item {DeclareTask}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+    \subitem {lineFollower.c}, \hyperpage{16}
+  \item {DEFINE\_\discretionary {-}{}{}CTXB}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {defines.h}, \hyperpage{3}
+    \subitem {ALTER}, \hyperpage{4}
+    \subitem {BLACK}, \hyperpage{4}
+    \subitem {BLUE}, \hyperpage{4}
+    \subitem {CALIBRATE}, \hyperpage{4}
+    \subitem {CORNER}, \hyperpage{4}
+    \subitem {EAST}, \hyperpage{4}
+    \subitem {FINISHED}, \hyperpage{4}
+    \subitem {FOLLOW}, \hyperpage{4}
+    \subitem {FOLLOW\_\discretionary {-}{}{}LEFT}, \hyperpage{4}
+    \subitem {FOLLOW\_\discretionary {-}{}{}LINE}, \hyperpage{4}
+    \subitem {FOLLOW\_\discretionary {-}{}{}RIGHT}, \hyperpage{4}
+    \subitem {FORWARD}, \hyperpage{4}
+    \subitem {GREEN}, \hyperpage{4}
+    \subitem {LEFT}, \hyperpage{4}
+    \subitem {LIGHT\_\discretionary {-}{}{}BLUE}, \hyperpage{4}
+    \subitem {LIGHT\_\discretionary {-}{}{}PORT}, \hyperpage{4}
+    \subitem {MOTOR\_\discretionary {-}{}{}LEFT}, \hyperpage{4}
+    \subitem {MOTOR\_\discretionary {-}{}{}RIGHT}, \hyperpage{5}
+    \subitem {NORTH}, \hyperpage{5}
+    \subitem {NUM\_\discretionary {-}{}{}COLORS}, \hyperpage{5}
+    \subitem {PAUSED}, \hyperpage{5}
+    \subitem {RAND\_\discretionary {-}{}{}MAX}, \hyperpage{5}
+    \subitem {RED}, \hyperpage{5}
+    \subitem {RIGHT}, \hyperpage{5}
+    \subitem {SEARCH}, \hyperpage{5}
+    \subitem {SEARCH\_\discretionary {-}{}{}CORNER}, \hyperpage{5}
+    \subitem {SOUTH}, \hyperpage{5}
+    \subitem {START}, \hyperpage{5}
+    \subitem {SWITCH\_\discretionary {-}{}{}WAIT}, \hyperpage{5}
+    \subitem {TEST}, \hyperpage{5}
+    \subitem {TURN}, \hyperpage{5}
+    \subitem {UNKNOWN}, \hyperpage{5}
+    \subitem {UNSURE}, \hyperpage{5}
+    \subitem {WEST}, \hyperpage{5}
+    \subitem {WHITE}, \hyperpage{5}
+    \subitem {YELLOW}, \hyperpage{5}
+
+  \indexspace
+
+  \item {EAST}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}initialize}
+    \subitem {lineFollower.c}, \hyperpage{16}
+  \item {ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}terminate}
+    \subitem {lineFollower.c}, \hyperpage{16}
+  \item {enter\_\discretionary {-}{}{}button}
+    \subitem {lineFollower.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {FINISHED}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {FOLLOW}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {FOLLOW\_\discretionary {-}{}{}LEFT}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {FOLLOW\_\discretionary {-}{}{}LINE}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {FOLLOW\_\discretionary {-}{}{}RIGHT}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {FORWARD}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {functions.c}, \hyperpage{5}
+    \subitem {change\_\discretionary {-}{}{}position}, \hyperpage{6}
+    \subitem {check\_\discretionary {-}{}{}color}, \hyperpage{6}
+    \subitem {query\_\discretionary {-}{}{}turn}, \hyperpage{6}
+    \subitem {robot\_\discretionary {-}{}{}follow}, \hyperpage{7}
+    \subitem {set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed}, 
+		\hyperpage{7}
+    \subitem {set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold}, 
+		\hyperpage{7}
+  \item {functions.h}, \hyperpage{7}
+    \subitem {change\_\discretionary {-}{}{}position}, \hyperpage{8}
+    \subitem {check\_\discretionary {-}{}{}color}, \hyperpage{9}
+    \subitem {checked}, \hyperpage{10}
+    \subitem {color}, \hyperpage{10}
+    \subitem {colorCal}, \hyperpage{10}
+    \subitem {make\_\discretionary {-}{}{}turn}, \hyperpage{10}
+    \subitem {map}, \hyperpage{10}
+    \subitem {motor\_\discretionary {-}{}{}left}, \hyperpage{10}
+    \subitem {motor\_\discretionary {-}{}{}right}, \hyperpage{10}
+    \subitem {old\_\discretionary {-}{}{}color}, \hyperpage{10}
+    \subitem {orientation}, \hyperpage{10}
+    \subitem {query\_\discretionary {-}{}{}turn}, \hyperpage{9}
+    \subitem {robot\_\discretionary {-}{}{}follow}, \hyperpage{9}
+    \subitem {set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed}, 
+		\hyperpage{9}
+    \subitem {set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold}, 
+		\hyperpage{9}
+    \subitem {x\_\discretionary {-}{}{}position}, \hyperpage{10}
+    \subitem {y\_\discretionary {-}{}{}position}, \hyperpage{10}
+
+  \indexspace
+
+  \item {GREEN}
+    \subitem {defines.h}, \hyperpage{4}
+
+  \indexspace
+
+  \item {IPL\_\discretionary {-}{}{}MAXISR2}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {ipl\_\discretionary {-}{}{}maxisr2}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {isrcb\_\discretionary {-}{}{}lastres}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {isrinib\_\discretionary {-}{}{}intpri}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+
+  \indexspace
+
+  \item {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{10}
+    \subitem {\_\discretionary {-}{}{}\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}, 
+		\hyperpage{14}
+    \subitem {\_\discretionary {-}{}{}\_\discretionary {-}{}{}TCOUNT\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}, 
+		\hyperpage{14}
+    \subitem {\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}, 
+		\hyperpage{14}
+    \subitem {\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}, 
+		\hyperpage{14}
+    \subitem {\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}, 
+		\hyperpage{14}
+    \subitem {\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ManageState}, 
+		\hyperpage{14}
+    \subitem {\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadButtons}, 
+		\hyperpage{14}
+    \subitem {\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadColour}, 
+		\hyperpage{14}
+    \subitem {almcb\_\discretionary {-}{}{}almval}, \hyperpage{14}
+    \subitem {almcb\_\discretionary {-}{}{}cycle}, \hyperpage{14}
+    \subitem {almcb\_\discretionary {-}{}{}next}, \hyperpage{14}
+    \subitem {almcb\_\discretionary {-}{}{}prev}, \hyperpage{14}
+    \subitem {alminib\_\discretionary {-}{}{}almval}, \hyperpage{14}
+    \subitem {alminib\_\discretionary {-}{}{}autosta}, \hyperpage{14}
+    \subitem {alminib\_\discretionary {-}{}{}cback}, \hyperpage{14}
+    \subitem {alminib\_\discretionary {-}{}{}cntid}, \hyperpage{14}
+    \subitem {alminib\_\discretionary {-}{}{}cycle}, \hyperpage{14}
+    \subitem {cntcb\_\discretionary {-}{}{}almque}, \hyperpage{14}
+    \subitem {cntcb\_\discretionary {-}{}{}curval}, \hyperpage{14}
+    \subitem {cntinib\_\discretionary {-}{}{}maxval}, \hyperpage{14}
+    \subitem {cntinib\_\discretionary {-}{}{}maxval2}, \hyperpage{14}
+    \subitem {cntinib\_\discretionary {-}{}{}mincyc}, \hyperpage{14}
+    \subitem {cntinib\_\discretionary {-}{}{}tickbase}, \hyperpage{14}
+    \subitem {cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}, 
+		\hyperpage{14}
+    \subitem {cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}, 
+		\hyperpage{14}
+    \subitem {cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}, 
+		\hyperpage{14}
+    \subitem {DeclareTask}, \hyperpage{14}
+    \subitem {DEFINE\_\discretionary {-}{}{}CTXB}, \hyperpage{14}
+    \subitem {IPL\_\discretionary {-}{}{}MAXISR2}, \hyperpage{14}
+    \subitem {ipl\_\discretionary {-}{}{}maxisr2}, \hyperpage{14}
+    \subitem {isrcb\_\discretionary {-}{}{}lastres}, \hyperpage{14}
+    \subitem {isrinib\_\discretionary {-}{}{}intpri}, \hyperpage{14}
+    \subitem {ManageState}, \hyperpage{14}
+    \subitem {object\_\discretionary {-}{}{}initialize}, \hyperpage{14}
+    \subitem {ReadButtons}, \hyperpage{14}
+    \subitem {ReadColour}, \hyperpage{14}
+    \subitem {rescb\_\discretionary {-}{}{}prevpri}, \hyperpage{14}
+    \subitem {rescb\_\discretionary {-}{}{}prevres}, \hyperpage{14}
+    \subitem {resinib\_\discretionary {-}{}{}ceilpri}, \hyperpage{14}
+    \subitem {SysTimerCnt}, \hyperpage{14}
+    \subitem {tcb\_\discretionary {-}{}{}actcnt}, \hyperpage{14}
+    \subitem {tcb\_\discretionary {-}{}{}curevt}, \hyperpage{14}
+    \subitem {tcb\_\discretionary {-}{}{}curpri}, \hyperpage{14}
+    \subitem {tcb\_\discretionary {-}{}{}lastres}, \hyperpage{14}
+    \subitem {tcb\_\discretionary {-}{}{}next}, \hyperpage{14}
+    \subitem {tcb\_\discretionary {-}{}{}tstat}, \hyperpage{14}
+    \subitem {tcb\_\discretionary {-}{}{}waievt}, \hyperpage{14}
+    \subitem {tinib\_\discretionary {-}{}{}autoact}, \hyperpage{14}
+    \subitem {tinib\_\discretionary {-}{}{}exepri}, \hyperpage{14}
+    \subitem {tinib\_\discretionary {-}{}{}inipri}, \hyperpage{14}
+    \subitem {tinib\_\discretionary {-}{}{}maxact}, \hyperpage{14}
+    \subitem {tinib\_\discretionary {-}{}{}stk}, \hyperpage{14}
+    \subitem {tinib\_\discretionary {-}{}{}stksz}, \hyperpage{14}
+    \subitem {tinib\_\discretionary {-}{}{}task}, \hyperpage{14}
+    \subitem {TNUM\_\discretionary {-}{}{}ALARM}, \hyperpage{14}
+    \subitem {tnum\_\discretionary {-}{}{}alarm}, \hyperpage{14}
+    \subitem {TNUM\_\discretionary {-}{}{}COUNTER}, \hyperpage{14}
+    \subitem {tnum\_\discretionary {-}{}{}counter}, \hyperpage{14}
+    \subitem {TNUM\_\discretionary {-}{}{}EXTTASK}, \hyperpage{14}
+    \subitem {tnum\_\discretionary {-}{}{}exttask}, \hyperpage{14}
+    \subitem {TNUM\_\discretionary {-}{}{}ISR2}, \hyperpage{14}
+    \subitem {tnum\_\discretionary {-}{}{}isr2}, \hyperpage{14}
+    \subitem {TNUM\_\discretionary {-}{}{}RESOURCE}, \hyperpage{14}
+    \subitem {tnum\_\discretionary {-}{}{}resource}, \hyperpage{14}
+    \subitem {TNUM\_\discretionary {-}{}{}TASK}, \hyperpage{14}
+    \subitem {tnum\_\discretionary {-}{}{}task}, \hyperpage{14}
+  \item {kernel\_\discretionary {-}{}{}id.h}, \hyperpage{14}
+    \subitem {appmode1}, \hyperpage{15}
+
+  \indexspace
+
+  \item {LEFT}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {LIGHT\_\discretionary {-}{}{}BLUE}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {LIGHT\_\discretionary {-}{}{}PORT}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {line\_\discretionary {-}{}{}found}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {line\_\discretionary {-}{}{}side}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {lineFollower.c}, \hyperpage{15}
+    \subitem {DeclareCounter}, \hyperpage{16}
+    \subitem {DeclareTask}, \hyperpage{16}
+    \subitem {ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}initialize}, 
+		\hyperpage{16}
+    \subitem {ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}terminate}, 
+		\hyperpage{16}
+    \subitem {TASK}, \hyperpage{16}
+    \subitem {user\_\discretionary {-}{}{}1ms\_\discretionary {-}{}{}isr\_\discretionary {-}{}{}type2}, 
+		\hyperpage{16}
+  \item {lineFollower.h}, \hyperpage{16}
+    \subitem {black\_\discretionary {-}{}{}count}, \hyperpage{17}
+    \subitem {checked}, \hyperpage{17}
+    \subitem {color}, \hyperpage{17}
+    \subitem {color\_\discretionary {-}{}{}cal\_\discretionary {-}{}{}state}, 
+		\hyperpage{17}
+    \subitem {colorCal}, \hyperpage{17}
+    \subitem {enter\_\discretionary {-}{}{}button}, \hyperpage{17}
+    \subitem {line\_\discretionary {-}{}{}found}, \hyperpage{17}
+    \subitem {line\_\discretionary {-}{}{}side}, \hyperpage{17}
+    \subitem {make\_\discretionary {-}{}{}turn}, \hyperpage{17}
+    \subitem {old\_\discretionary {-}{}{}color}, \hyperpage{17}
+    \subitem {random}, \hyperpage{17}
+    \subitem {run\_\discretionary {-}{}{}button}, \hyperpage{17}
+    \subitem {search\_\discretionary {-}{}{}time}, \hyperpage{17}
+    \subitem {state}, \hyperpage{17}
+
+  \indexspace
+
+  \item {make\_\discretionary {-}{}{}turn}
+    \subitem {functions.h}, \hyperpage{10}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {ManageState}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {map}
+    \subitem {functions.h}, \hyperpage{10}
+  \item {MOTOR\_\discretionary {-}{}{}LEFT}
+    \subitem {defines.h}, \hyperpage{4}
+  \item {motor\_\discretionary {-}{}{}left}
+    \subitem {functions.h}, \hyperpage{10}
+  \item {MOTOR\_\discretionary {-}{}{}RIGHT}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {motor\_\discretionary {-}{}{}right}
+    \subitem {functions.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {NORTH}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {NUM\_\discretionary {-}{}{}COLORS}
+    \subitem {defines.h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {object\_\discretionary {-}{}{}initialize}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {old\_\discretionary {-}{}{}color}
+    \subitem {functions.h}, \hyperpage{10}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {orientation}
+    \subitem {functions.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {PAUSED}
+    \subitem {defines.h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {query\_\discretionary {-}{}{}turn}
+    \subitem {functions.c}, \hyperpage{6}
+    \subitem {functions.h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {RAND\_\discretionary {-}{}{}MAX}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {random}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {ReadButtons}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {ReadColour}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {RED}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {rescb\_\discretionary {-}{}{}prevpri}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {rescb\_\discretionary {-}{}{}prevres}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {resinib\_\discretionary {-}{}{}ceilpri}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {RIGHT}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {robot\_\discretionary {-}{}{}follow}
+    \subitem {functions.c}, \hyperpage{7}
+    \subitem {functions.h}, \hyperpage{9}
+  \item {run\_\discretionary {-}{}{}button}
+    \subitem {lineFollower.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {SEARCH}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {SEARCH\_\discretionary {-}{}{}CORNER}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {search\_\discretionary {-}{}{}time}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed}
+    \subitem {functions.c}, \hyperpage{7}
+    \subitem {functions.h}, \hyperpage{9}
+  \item {set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold}
+    \subitem {functions.c}, \hyperpage{7}
+    \subitem {functions.h}, \hyperpage{9}
+  \item {SOUTH}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {START}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {state}
+    \subitem {lineFollower.h}, \hyperpage{17}
+  \item {SWITCH\_\discretionary {-}{}{}WAIT}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {SysTimerCnt}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+
+  \indexspace
+
+  \item {TASK}
+    \subitem {lineFollower.c}, \hyperpage{16}
+  \item {tcb\_\discretionary {-}{}{}actcnt}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tcb\_\discretionary {-}{}{}curevt}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tcb\_\discretionary {-}{}{}curpri}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tcb\_\discretionary {-}{}{}lastres}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tcb\_\discretionary {-}{}{}next}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tcb\_\discretionary {-}{}{}tstat}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tcb\_\discretionary {-}{}{}waievt}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TEST}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {tinib\_\discretionary {-}{}{}autoact}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tinib\_\discretionary {-}{}{}exepri}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tinib\_\discretionary {-}{}{}inipri}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tinib\_\discretionary {-}{}{}maxact}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tinib\_\discretionary {-}{}{}stk}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tinib\_\discretionary {-}{}{}stksz}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tinib\_\discretionary {-}{}{}task}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TNUM\_\discretionary {-}{}{}ALARM}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tnum\_\discretionary {-}{}{}alarm}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TNUM\_\discretionary {-}{}{}COUNTER}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tnum\_\discretionary {-}{}{}counter}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TNUM\_\discretionary {-}{}{}EXTTASK}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tnum\_\discretionary {-}{}{}exttask}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TNUM\_\discretionary {-}{}{}ISR2}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tnum\_\discretionary {-}{}{}isr2}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TNUM\_\discretionary {-}{}{}RESOURCE}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tnum\_\discretionary {-}{}{}resource}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TNUM\_\discretionary {-}{}{}TASK}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {tnum\_\discretionary {-}{}{}task}
+    \subitem {kernel\_\discretionary {-}{}{}cfg.c}, \hyperpage{14}
+  \item {TURN}
+    \subitem {defines.h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {UNKNOWN}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {UNSURE}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {user\_\discretionary {-}{}{}1ms\_\discretionary {-}{}{}isr\_\discretionary {-}{}{}type2}
+    \subitem {lineFollower.c}, \hyperpage{16}
+
+  \indexspace
+
+  \item {WEST}
+    \subitem {defines.h}, \hyperpage{5}
+  \item {WHITE}
+    \subitem {defines.h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {x\_\discretionary {-}{}{}position}
+    \subitem {functions.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {y\_\discretionary {-}{}{}position}
+    \subitem {functions.h}, \hyperpage{10}
+  \item {YELLOW}
+    \subitem {defines.h}, \hyperpage{5}
+
+\end{theindex}

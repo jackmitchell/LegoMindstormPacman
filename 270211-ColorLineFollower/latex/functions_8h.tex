@@ -1,0 +1,243 @@
+\hypertarget{functions_8h}{
+\section{functions.h File Reference}
+\label{functions_8h}\index{functions.h@{functions.h}}
+}
+{\ttfamily \#include \char`\"{}kernel.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}kernel\_\-id.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}ecrobot\_\-interface.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{functions_8h_a1955125dfc2e6ce14a0828c36391608f}{set\_\-both\_\-motor\_\-speed} (S8 left, S8 right)
+\begin{DoxyCompactList}\small\item\em Set both motor speeds in one easy function. \item\end{DoxyCompactList}\item 
+void \hyperlink{functions_8h_a60d141e5c63ef67cd73f7acfba1aeaa9}{set\_\-motor\_\-threshold} (U8 l\_\-min, U8 l\_\-max, U8 r\_\-min, U8 r\_\-max)
+\begin{DoxyCompactList}\small\item\em Sets the upper and lower motor speed thresholds. \item\end{DoxyCompactList}\item 
+int \hyperlink{functions_8h_a7b05151e46e55c3701fd54d896422bd2}{query\_\-turn} (U8 x, U8 y)
+\begin{DoxyCompactList}\small\item\em Query if it is viable to make a turn according to Tremauxes' Algorithm. \item\end{DoxyCompactList}\item 
+int \hyperlink{functions_8h_a06ae3583ed9b992d4d0b84d8c5ec9a7d}{change\_\-position} (U8 check)
+\begin{DoxyCompactList}\small\item\em Change the position of the robot in the map array. \item\end{DoxyCompactList}\item 
+void \hyperlink{functions_8h_a64404bb88ab719362e4a10fcdcb680a9}{robot\_\-follow} (U8 direction, U8 \hyperlink{lineFollower_8h_abd055a907eab9382e860363d871834dc}{line\_\-side})
+\begin{DoxyCompactList}\small\item\em sets the motor speeds according to the current colour detected \item\end{DoxyCompactList}\item 
+void \hyperlink{functions_8h_a73ce921eb873a85996ee4eeb5dc1bc6c}{check\_\-color} ()
+\begin{DoxyCompactList}\small\item\em queries the colour sensor and sets the global colour variables \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+U8 \hyperlink{functions_8h_a467bc50ebdf57d7c54dd8fb1a17b2d5e}{make\_\-turn}
+\item 
+U8 \hyperlink{functions_8h_aa4f3c11f930838252cdaacb9d3a50ea7}{checked} \mbox{[}6\mbox{]}
+\item 
+U8 \hyperlink{functions_8h_a985632da2cde2e50bb84c7486f1b3d28}{old\_\-color}
+\item 
+U8 \hyperlink{functions_8h_ac73799aba4f68e3209a4c8a1182cd7a9}{color}
+\item 
+S16 \hyperlink{functions_8h_ad9e3427977af43ccbea656401ddbc0df}{colorCal} \mbox{[}8\mbox{]}\mbox{[}6\mbox{]}
+\item 
+S8 \hyperlink{functions_8h_a4e52a6e4b79f3ec058b322ac3e02924a}{motor\_\-right}
+\item 
+S8 \hyperlink{functions_8h_a1c73059df86aae78b95b6e58b21c8f06}{motor\_\-left}
+\item 
+U8 \hyperlink{functions_8h_aa1b996fc591ae5be7af28b4d1a0e3e90}{map} \mbox{[}100\mbox{]}\mbox{[}100\mbox{]}
+\item 
+U8 \hyperlink{functions_8h_a8e6b57407e3ca1a32992dc03bd464118}{x\_\-position} = 50
+\item 
+U8 \hyperlink{functions_8h_a68cd796ad3c1826979769d361f79a405}{y\_\-position} = 50
+\item 
+U8 \hyperlink{functions_8h_a189adafc50602f85dd931f2818ced4bf}{orientation} = NORTH
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{functions_8h_a06ae3583ed9b992d4d0b84d8c5ec9a7d}{
+\index{functions.h@{functions.h}!change\_\-position@{change\_\-position}}
+\index{change\_\-position@{change\_\-position}!functions.h@{functions.h}}
+\subsubsection[{change\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}int change\_\-position (
+\begin{DoxyParamCaption}
+\item[{U8}]{check}
+\end{DoxyParamCaption}
+)}}
+\label{functions_8h_a06ae3583ed9b992d4d0b84d8c5ec9a7d}
+
+
+Change the position of the robot in the map array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em check} & if this is a dry run of an actual change of position\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+viable move according to Tremauxes' Algorithm 
+\end{DoxyReturn}
+\hypertarget{functions_8h_a73ce921eb873a85996ee4eeb5dc1bc6c}{
+\index{functions.h@{functions.h}!check\_\-color@{check\_\-color}}
+\index{check\_\-color@{check\_\-color}!functions.h@{functions.h}}
+\subsubsection[{check\_\-color}]{\setlength{\rightskip}{0pt plus 5cm}void check\_\-color (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{functions_8h_a73ce921eb873a85996ee4eeb5dc1bc6c}
+
+
+queries the colour sensor and sets the global colour variables 
+
+\hypertarget{functions_8h_a7b05151e46e55c3701fd54d896422bd2}{
+\index{functions.h@{functions.h}!query\_\-turn@{query\_\-turn}}
+\index{query\_\-turn@{query\_\-turn}!functions.h@{functions.h}}
+\subsubsection[{query\_\-turn}]{\setlength{\rightskip}{0pt plus 5cm}int query\_\-turn (
+\begin{DoxyParamCaption}
+\item[{U8}]{x, }
+\item[{U8}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{functions_8h_a7b05151e46e55c3701fd54d896422bd2}
+
+
+Query if it is viable to make a turn according to Tremauxes' Algorithm. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & proposed x co-\/ordinate \\
+\hline
+{\em y} & proposed y co-\/ordinate\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+viable move according to Tremauxes' Algorithm 
+\end{DoxyReturn}
+\hypertarget{functions_8h_a64404bb88ab719362e4a10fcdcb680a9}{
+\index{functions.h@{functions.h}!robot\_\-follow@{robot\_\-follow}}
+\index{robot\_\-follow@{robot\_\-follow}!functions.h@{functions.h}}
+\subsubsection[{robot\_\-follow}]{\setlength{\rightskip}{0pt plus 5cm}void robot\_\-follow (
+\begin{DoxyParamCaption}
+\item[{U8}]{direction, }
+\item[{U8}]{line\_\-side}
+\end{DoxyParamCaption}
+)}}
+\label{functions_8h_a64404bb88ab719362e4a10fcdcb680a9}
+
+
+sets the motor speeds according to the current colour detected 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & what mode the robot is in \\
+\hline
+{\em line\_\-side} & the side of the line the robot should follow \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8h_a1955125dfc2e6ce14a0828c36391608f}{
+\index{functions.h@{functions.h}!set\_\-both\_\-motor\_\-speed@{set\_\-both\_\-motor\_\-speed}}
+\index{set\_\-both\_\-motor\_\-speed@{set\_\-both\_\-motor\_\-speed}!functions.h@{functions.h}}
+\subsubsection[{set\_\-both\_\-motor\_\-speed}]{\setlength{\rightskip}{0pt plus 5cm}void set\_\-both\_\-motor\_\-speed (
+\begin{DoxyParamCaption}
+\item[{S8}]{left, }
+\item[{S8}]{right}
+\end{DoxyParamCaption}
+)}}
+\label{functions_8h_a1955125dfc2e6ce14a0828c36391608f}
+
+
+Set both motor speeds in one easy function. 
+
+\hyperlink{functions_8c}{functions.c}
+
+Functions for control of the robot
+
+Jack Mitchell $<$\href{mailto:jgm11@le.ac.uk}{\tt jgm11@le.ac.uk}$>$ 
+\begin{DoxyParams}{Parameters}
+{\em left} & left motor speed \\
+\hline
+{\em right} & right motor speed \\
+\hline
+\end{DoxyParams}
+\hypertarget{functions_8h_a60d141e5c63ef67cd73f7acfba1aeaa9}{
+\index{functions.h@{functions.h}!set\_\-motor\_\-threshold@{set\_\-motor\_\-threshold}}
+\index{set\_\-motor\_\-threshold@{set\_\-motor\_\-threshold}!functions.h@{functions.h}}
+\subsubsection[{set\_\-motor\_\-threshold}]{\setlength{\rightskip}{0pt plus 5cm}void set\_\-motor\_\-threshold (
+\begin{DoxyParamCaption}
+\item[{U8}]{l\_\-min, }
+\item[{U8}]{l\_\-max, }
+\item[{U8}]{r\_\-min, }
+\item[{U8}]{r\_\-max}
+\end{DoxyParamCaption}
+)}}
+\label{functions_8h_a60d141e5c63ef67cd73f7acfba1aeaa9}
+
+
+Sets the upper and lower motor speed thresholds. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l\_\-min} & left motor lower \\
+\hline
+{\em l\_\-max} & left motor upper \\
+\hline
+{\em r\_\-min} & right motor lower \\
+\hline
+{\em r\_\-max} & right motor upper \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Variable Documentation}
+\hypertarget{functions_8h_aa4f3c11f930838252cdaacb9d3a50ea7}{
+\index{functions.h@{functions.h}!checked@{checked}}
+\index{checked@{checked}!functions.h@{functions.h}}
+\subsubsection[{checked}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf checked}\mbox{[}6\mbox{]}}}
+\label{functions_8h_aa4f3c11f930838252cdaacb9d3a50ea7}
+\hypertarget{functions_8h_ac73799aba4f68e3209a4c8a1182cd7a9}{
+\index{functions.h@{functions.h}!color@{color}}
+\index{color@{color}!functions.h@{functions.h}}
+\subsubsection[{color}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf color}}}
+\label{functions_8h_ac73799aba4f68e3209a4c8a1182cd7a9}
+\hypertarget{functions_8h_ad9e3427977af43ccbea656401ddbc0df}{
+\index{functions.h@{functions.h}!colorCal@{colorCal}}
+\index{colorCal@{colorCal}!functions.h@{functions.h}}
+\subsubsection[{colorCal}]{\setlength{\rightskip}{0pt plus 5cm}S16 {\bf colorCal}\mbox{[}8\mbox{]}\mbox{[}6\mbox{]}}}
+\label{functions_8h_ad9e3427977af43ccbea656401ddbc0df}
+\hypertarget{functions_8h_a467bc50ebdf57d7c54dd8fb1a17b2d5e}{
+\index{functions.h@{functions.h}!make\_\-turn@{make\_\-turn}}
+\index{make\_\-turn@{make\_\-turn}!functions.h@{functions.h}}
+\subsubsection[{make\_\-turn}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf make\_\-turn}}}
+\label{functions_8h_a467bc50ebdf57d7c54dd8fb1a17b2d5e}
+\hyperlink{functions_8h}{functions.h}
+
+Header file defining functions
+
+Jack Mitchell $<$\href{mailto:jgm11@le.ac.uk}{\tt jgm11@le.ac.uk}$>$ \hypertarget{functions_8h_aa1b996fc591ae5be7af28b4d1a0e3e90}{
+\index{functions.h@{functions.h}!map@{map}}
+\index{map@{map}!functions.h@{functions.h}}
+\subsubsection[{map}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf map}\mbox{[}100\mbox{]}\mbox{[}100\mbox{]}}}
+\label{functions_8h_aa1b996fc591ae5be7af28b4d1a0e3e90}
+\hypertarget{functions_8h_a1c73059df86aae78b95b6e58b21c8f06}{
+\index{functions.h@{functions.h}!motor\_\-left@{motor\_\-left}}
+\index{motor\_\-left@{motor\_\-left}!functions.h@{functions.h}}
+\subsubsection[{motor\_\-left}]{\setlength{\rightskip}{0pt plus 5cm}S8 {\bf motor\_\-left}}}
+\label{functions_8h_a1c73059df86aae78b95b6e58b21c8f06}
+\hypertarget{functions_8h_a4e52a6e4b79f3ec058b322ac3e02924a}{
+\index{functions.h@{functions.h}!motor\_\-right@{motor\_\-right}}
+\index{motor\_\-right@{motor\_\-right}!functions.h@{functions.h}}
+\subsubsection[{motor\_\-right}]{\setlength{\rightskip}{0pt plus 5cm}S8 {\bf motor\_\-right}}}
+\label{functions_8h_a4e52a6e4b79f3ec058b322ac3e02924a}
+\hypertarget{functions_8h_a985632da2cde2e50bb84c7486f1b3d28}{
+\index{functions.h@{functions.h}!old\_\-color@{old\_\-color}}
+\index{old\_\-color@{old\_\-color}!functions.h@{functions.h}}
+\subsubsection[{old\_\-color}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf old\_\-color}}}
+\label{functions_8h_a985632da2cde2e50bb84c7486f1b3d28}
+\hypertarget{functions_8h_a189adafc50602f85dd931f2818ced4bf}{
+\index{functions.h@{functions.h}!orientation@{orientation}}
+\index{orientation@{orientation}!functions.h@{functions.h}}
+\subsubsection[{orientation}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf orientation} = NORTH}}
+\label{functions_8h_a189adafc50602f85dd931f2818ced4bf}
+\hypertarget{functions_8h_a8e6b57407e3ca1a32992dc03bd464118}{
+\index{functions.h@{functions.h}!x\_\-position@{x\_\-position}}
+\index{x\_\-position@{x\_\-position}!functions.h@{functions.h}}
+\subsubsection[{x\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf x\_\-position} = 50}}
+\label{functions_8h_a8e6b57407e3ca1a32992dc03bd464118}
+\hypertarget{functions_8h_a68cd796ad3c1826979769d361f79a405}{
+\index{functions.h@{functions.h}!y\_\-position@{y\_\-position}}
+\index{y\_\-position@{y\_\-position}!functions.h@{functions.h}}
+\subsubsection[{y\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}U8 {\bf y\_\-position} = 50}}
+\label{functions_8h_a68cd796ad3c1826979769d361f79a405}

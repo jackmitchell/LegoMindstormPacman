@@ -1,0 +1,317 @@
+\indexentry{defines.h@{defines.h}|hyperpage}{3}
+\indexentry{defines.h@{defines.h}!ALTER@{ALTER}|hyperpage}{4}
+\indexentry{ALTER@{ALTER}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!BLACK@{BLACK}|hyperpage}{4}
+\indexentry{BLACK@{BLACK}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!BLUE@{BLUE}|hyperpage}{4}
+\indexentry{BLUE@{BLUE}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!CALIBRATE@{CALIBRATE}|hyperpage}{4}
+\indexentry{CALIBRATE@{CALIBRATE}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!CORNER@{CORNER}|hyperpage}{4}
+\indexentry{CORNER@{CORNER}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!EAST@{EAST}|hyperpage}{4}
+\indexentry{EAST@{EAST}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!FINISHED@{FINISHED}|hyperpage}{4}
+\indexentry{FINISHED@{FINISHED}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!FOLLOW@{FOLLOW}|hyperpage}{4}
+\indexentry{FOLLOW@{FOLLOW}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!FOLLOW\_\discretionary {-}{}{}LEFT@{FOLLOW\_\discretionary {-}{}{}LEFT}|hyperpage}{4}
+\indexentry{FOLLOW\_\discretionary {-}{}{}LEFT@{FOLLOW\_\discretionary {-}{}{}LEFT}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!FOLLOW\_\discretionary {-}{}{}LINE@{FOLLOW\_\discretionary {-}{}{}LINE}|hyperpage}{4}
+\indexentry{FOLLOW\_\discretionary {-}{}{}LINE@{FOLLOW\_\discretionary {-}{}{}LINE}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!FOLLOW\_\discretionary {-}{}{}RIGHT@{FOLLOW\_\discretionary {-}{}{}RIGHT}|hyperpage}{4}
+\indexentry{FOLLOW\_\discretionary {-}{}{}RIGHT@{FOLLOW\_\discretionary {-}{}{}RIGHT}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!FORWARD@{FORWARD}|hyperpage}{4}
+\indexentry{FORWARD@{FORWARD}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!GREEN@{GREEN}|hyperpage}{4}
+\indexentry{GREEN@{GREEN}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!LEFT@{LEFT}|hyperpage}{4}
+\indexentry{LEFT@{LEFT}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!LIGHT\_\discretionary {-}{}{}BLUE@{LIGHT\_\discretionary {-}{}{}BLUE}|hyperpage}{4}
+\indexentry{LIGHT\_\discretionary {-}{}{}BLUE@{LIGHT\_\discretionary {-}{}{}BLUE}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!LIGHT\_\discretionary {-}{}{}PORT@{LIGHT\_\discretionary {-}{}{}PORT}|hyperpage}{4}
+\indexentry{LIGHT\_\discretionary {-}{}{}PORT@{LIGHT\_\discretionary {-}{}{}PORT}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!MOTOR\_\discretionary {-}{}{}LEFT@{MOTOR\_\discretionary {-}{}{}LEFT}|hyperpage}{4}
+\indexentry{MOTOR\_\discretionary {-}{}{}LEFT@{MOTOR\_\discretionary {-}{}{}LEFT}!defines.h@{defines.h}|hyperpage}{4}
+\indexentry{defines.h@{defines.h}!MOTOR\_\discretionary {-}{}{}RIGHT@{MOTOR\_\discretionary {-}{}{}RIGHT}|hyperpage}{5}
+\indexentry{MOTOR\_\discretionary {-}{}{}RIGHT@{MOTOR\_\discretionary {-}{}{}RIGHT}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!NORTH@{NORTH}|hyperpage}{5}
+\indexentry{NORTH@{NORTH}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!NUM\_\discretionary {-}{}{}COLORS@{NUM\_\discretionary {-}{}{}COLORS}|hyperpage}{5}
+\indexentry{NUM\_\discretionary {-}{}{}COLORS@{NUM\_\discretionary {-}{}{}COLORS}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!PAUSED@{PAUSED}|hyperpage}{5}
+\indexentry{PAUSED@{PAUSED}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!RAND\_\discretionary {-}{}{}MAX@{RAND\_\discretionary {-}{}{}MAX}|hyperpage}{5}
+\indexentry{RAND\_\discretionary {-}{}{}MAX@{RAND\_\discretionary {-}{}{}MAX}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!RED@{RED}|hyperpage}{5}
+\indexentry{RED@{RED}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!RIGHT@{RIGHT}|hyperpage}{5}
+\indexentry{RIGHT@{RIGHT}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!SEARCH@{SEARCH}|hyperpage}{5}
+\indexentry{SEARCH@{SEARCH}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!SEARCH\_\discretionary {-}{}{}CORNER@{SEARCH\_\discretionary {-}{}{}CORNER}|hyperpage}{5}
+\indexentry{SEARCH\_\discretionary {-}{}{}CORNER@{SEARCH\_\discretionary {-}{}{}CORNER}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!SOUTH@{SOUTH}|hyperpage}{5}
+\indexentry{SOUTH@{SOUTH}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!START@{START}|hyperpage}{5}
+\indexentry{START@{START}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!SWITCH\_\discretionary {-}{}{}WAIT@{SWITCH\_\discretionary {-}{}{}WAIT}|hyperpage}{5}
+\indexentry{SWITCH\_\discretionary {-}{}{}WAIT@{SWITCH\_\discretionary {-}{}{}WAIT}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!TEST@{TEST}|hyperpage}{5}
+\indexentry{TEST@{TEST}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!TURN@{TURN}|hyperpage}{5}
+\indexentry{TURN@{TURN}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!UNKNOWN@{UNKNOWN}|hyperpage}{5}
+\indexentry{UNKNOWN@{UNKNOWN}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!UNSURE@{UNSURE}|hyperpage}{5}
+\indexentry{UNSURE@{UNSURE}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!WEST@{WEST}|hyperpage}{5}
+\indexentry{WEST@{WEST}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!WHITE@{WHITE}|hyperpage}{5}
+\indexentry{WHITE@{WHITE}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{defines.h@{defines.h}!YELLOW@{YELLOW}|hyperpage}{5}
+\indexentry{YELLOW@{YELLOW}!defines.h@{defines.h}|hyperpage}{5}
+\indexentry{functions.c@{functions.c}|hyperpage}{5}
+\indexentry{functions.c@{functions.c}!change\_\discretionary {-}{}{}position@{change\_\discretionary {-}{}{}position}|hyperpage}{6}
+\indexentry{change\_\discretionary {-}{}{}position@{change\_\discretionary {-}{}{}position}!functions.c@{functions.c}|hyperpage}{6}
+\indexentry{functions.c@{functions.c}!check\_\discretionary {-}{}{}color@{check\_\discretionary {-}{}{}color}|hyperpage}{6}
+\indexentry{check\_\discretionary {-}{}{}color@{check\_\discretionary {-}{}{}color}!functions.c@{functions.c}|hyperpage}{6}
+\indexentry{functions.c@{functions.c}!query\_\discretionary {-}{}{}turn@{query\_\discretionary {-}{}{}turn}|hyperpage}{6}
+\indexentry{query\_\discretionary {-}{}{}turn@{query\_\discretionary {-}{}{}turn}!functions.c@{functions.c}|hyperpage}{6}
+\indexentry{functions.c@{functions.c}!robot\_\discretionary {-}{}{}follow@{robot\_\discretionary {-}{}{}follow}|hyperpage}{7}
+\indexentry{robot\_\discretionary {-}{}{}follow@{robot\_\discretionary {-}{}{}follow}!functions.c@{functions.c}|hyperpage}{7}
+\indexentry{functions.c@{functions.c}!set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed@{set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed}|hyperpage}{7}
+\indexentry{set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed@{set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed}!functions.c@{functions.c}|hyperpage}{7}
+\indexentry{functions.c@{functions.c}!set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold@{set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold}|hyperpage}{7}
+\indexentry{set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold@{set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold}!functions.c@{functions.c}|hyperpage}{7}
+\indexentry{functions.h@{functions.h}|hyperpage}{7}
+\indexentry{functions.h@{functions.h}!change\_\discretionary {-}{}{}position@{change\_\discretionary {-}{}{}position}|hyperpage}{8}
+\indexentry{change\_\discretionary {-}{}{}position@{change\_\discretionary {-}{}{}position}!functions.h@{functions.h}|hyperpage}{8}
+\indexentry{functions.h@{functions.h}!check\_\discretionary {-}{}{}color@{check\_\discretionary {-}{}{}color}|hyperpage}{9}
+\indexentry{check\_\discretionary {-}{}{}color@{check\_\discretionary {-}{}{}color}!functions.h@{functions.h}|hyperpage}{9}
+\indexentry{functions.h@{functions.h}!query\_\discretionary {-}{}{}turn@{query\_\discretionary {-}{}{}turn}|hyperpage}{9}
+\indexentry{query\_\discretionary {-}{}{}turn@{query\_\discretionary {-}{}{}turn}!functions.h@{functions.h}|hyperpage}{9}
+\indexentry{functions.h@{functions.h}!robot\_\discretionary {-}{}{}follow@{robot\_\discretionary {-}{}{}follow}|hyperpage}{9}
+\indexentry{robot\_\discretionary {-}{}{}follow@{robot\_\discretionary {-}{}{}follow}!functions.h@{functions.h}|hyperpage}{9}
+\indexentry{functions.h@{functions.h}!set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed@{set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed}|hyperpage}{9}
+\indexentry{set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed@{set\_\discretionary {-}{}{}both\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}speed}!functions.h@{functions.h}|hyperpage}{9}
+\indexentry{functions.h@{functions.h}!set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold@{set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold}|hyperpage}{9}
+\indexentry{set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold@{set\_\discretionary {-}{}{}motor\_\discretionary {-}{}{}threshold}!functions.h@{functions.h}|hyperpage}{9}
+\indexentry{functions.h@{functions.h}!checked@{checked}|hyperpage}{10}
+\indexentry{checked@{checked}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!color@{color}|hyperpage}{10}
+\indexentry{color@{color}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!colorCal@{colorCal}|hyperpage}{10}
+\indexentry{colorCal@{colorCal}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!make\_\discretionary {-}{}{}turn@{make\_\discretionary {-}{}{}turn}|hyperpage}{10}
+\indexentry{make\_\discretionary {-}{}{}turn@{make\_\discretionary {-}{}{}turn}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!map@{map}|hyperpage}{10}
+\indexentry{map@{map}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!motor\_\discretionary {-}{}{}left@{motor\_\discretionary {-}{}{}left}|hyperpage}{10}
+\indexentry{motor\_\discretionary {-}{}{}left@{motor\_\discretionary {-}{}{}left}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!motor\_\discretionary {-}{}{}right@{motor\_\discretionary {-}{}{}right}|hyperpage}{10}
+\indexentry{motor\_\discretionary {-}{}{}right@{motor\_\discretionary {-}{}{}right}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!old\_\discretionary {-}{}{}color@{old\_\discretionary {-}{}{}color}|hyperpage}{10}
+\indexentry{old\_\discretionary {-}{}{}color@{old\_\discretionary {-}{}{}color}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!orientation@{orientation}|hyperpage}{10}
+\indexentry{orientation@{orientation}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!x\_\discretionary {-}{}{}position@{x\_\discretionary {-}{}{}position}|hyperpage}{10}
+\indexentry{x\_\discretionary {-}{}{}position@{x\_\discretionary {-}{}{}position}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{functions.h@{functions.h}!y\_\discretionary {-}{}{}position@{y\_\discretionary {-}{}{}position}|hyperpage}{10}
+\indexentry{y\_\discretionary {-}{}{}position@{y\_\discretionary {-}{}{}position}!functions.h@{functions.h}|hyperpage}{10}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{10}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}TCOUNT\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}TCOUNT\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}TCOUNT\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}TCOUNT\_\discretionary {-}{}{}STK\_\discretionary {-}{}{}UNIT}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!IPL\_\discretionary {-}{}{}MAXISR2@{IPL\_\discretionary {-}{}{}MAXISR2}|hyperpage}{14}
+\indexentry{IPL\_\discretionary {-}{}{}MAXISR2@{IPL\_\discretionary {-}{}{}MAXISR2}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!TNUM\_\discretionary {-}{}{}ALARM@{TNUM\_\discretionary {-}{}{}ALARM}|hyperpage}{14}
+\indexentry{TNUM\_\discretionary {-}{}{}ALARM@{TNUM\_\discretionary {-}{}{}ALARM}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!TNUM\_\discretionary {-}{}{}COUNTER@{TNUM\_\discretionary {-}{}{}COUNTER}|hyperpage}{14}
+\indexentry{TNUM\_\discretionary {-}{}{}COUNTER@{TNUM\_\discretionary {-}{}{}COUNTER}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!TNUM\_\discretionary {-}{}{}EXTTASK@{TNUM\_\discretionary {-}{}{}EXTTASK}|hyperpage}{14}
+\indexentry{TNUM\_\discretionary {-}{}{}EXTTASK@{TNUM\_\discretionary {-}{}{}EXTTASK}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!TNUM\_\discretionary {-}{}{}ISR2@{TNUM\_\discretionary {-}{}{}ISR2}|hyperpage}{14}
+\indexentry{TNUM\_\discretionary {-}{}{}ISR2@{TNUM\_\discretionary {-}{}{}ISR2}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!TNUM\_\discretionary {-}{}{}RESOURCE@{TNUM\_\discretionary {-}{}{}RESOURCE}|hyperpage}{14}
+\indexentry{TNUM\_\discretionary {-}{}{}RESOURCE@{TNUM\_\discretionary {-}{}{}RESOURCE}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!TNUM\_\discretionary {-}{}{}TASK@{TNUM\_\discretionary {-}{}{}TASK}|hyperpage}{14}
+\indexentry{TNUM\_\discretionary {-}{}{}TASK@{TNUM\_\discretionary {-}{}{}TASK}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState@{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState@{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons@{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons@{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour@{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour@{\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!DeclareTask@{DeclareTask}|hyperpage}{14}
+\indexentry{DeclareTask@{DeclareTask}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!DeclareTask@{DeclareTask}|hyperpage}{14}
+\indexentry{DeclareTask@{DeclareTask}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!DeclareTask@{DeclareTask}|hyperpage}{14}
+\indexentry{DeclareTask@{DeclareTask}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!DEFINE\_\discretionary {-}{}{}CTXB@{DEFINE\_\discretionary {-}{}{}CTXB}|hyperpage}{14}
+\indexentry{DEFINE\_\discretionary {-}{}{}CTXB@{DEFINE\_\discretionary {-}{}{}CTXB}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!ManageState@{ManageState}|hyperpage}{14}
+\indexentry{ManageState@{ManageState}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!object\_\discretionary {-}{}{}initialize@{object\_\discretionary {-}{}{}initialize}|hyperpage}{14}
+\indexentry{object\_\discretionary {-}{}{}initialize@{object\_\discretionary {-}{}{}initialize}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!ReadButtons@{ReadButtons}|hyperpage}{14}
+\indexentry{ReadButtons@{ReadButtons}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!ReadColour@{ReadColour}|hyperpage}{14}
+\indexentry{ReadColour@{ReadColour}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ManageState@{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ManageState}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ManageState@{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ManageState}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadButtons@{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadButtons}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadButtons@{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadButtons}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadColour@{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadColour}|hyperpage}{14}
+\indexentry{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadColour@{\_\discretionary {-}{}{}stack\_\discretionary {-}{}{}ReadColour}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!almcb\_\discretionary {-}{}{}almval@{almcb\_\discretionary {-}{}{}almval}|hyperpage}{14}
+\indexentry{almcb\_\discretionary {-}{}{}almval@{almcb\_\discretionary {-}{}{}almval}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!almcb\_\discretionary {-}{}{}cycle@{almcb\_\discretionary {-}{}{}cycle}|hyperpage}{14}
+\indexentry{almcb\_\discretionary {-}{}{}cycle@{almcb\_\discretionary {-}{}{}cycle}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!almcb\_\discretionary {-}{}{}next@{almcb\_\discretionary {-}{}{}next}|hyperpage}{14}
+\indexentry{almcb\_\discretionary {-}{}{}next@{almcb\_\discretionary {-}{}{}next}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!almcb\_\discretionary {-}{}{}prev@{almcb\_\discretionary {-}{}{}prev}|hyperpage}{14}
+\indexentry{almcb\_\discretionary {-}{}{}prev@{almcb\_\discretionary {-}{}{}prev}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!alminib\_\discretionary {-}{}{}almval@{alminib\_\discretionary {-}{}{}almval}|hyperpage}{14}
+\indexentry{alminib\_\discretionary {-}{}{}almval@{alminib\_\discretionary {-}{}{}almval}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!alminib\_\discretionary {-}{}{}autosta@{alminib\_\discretionary {-}{}{}autosta}|hyperpage}{14}
+\indexentry{alminib\_\discretionary {-}{}{}autosta@{alminib\_\discretionary {-}{}{}autosta}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!alminib\_\discretionary {-}{}{}cback@{alminib\_\discretionary {-}{}{}cback}|hyperpage}{14}
+\indexentry{alminib\_\discretionary {-}{}{}cback@{alminib\_\discretionary {-}{}{}cback}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!alminib\_\discretionary {-}{}{}cntid@{alminib\_\discretionary {-}{}{}cntid}|hyperpage}{14}
+\indexentry{alminib\_\discretionary {-}{}{}cntid@{alminib\_\discretionary {-}{}{}cntid}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!alminib\_\discretionary {-}{}{}cycle@{alminib\_\discretionary {-}{}{}cycle}|hyperpage}{14}
+\indexentry{alminib\_\discretionary {-}{}{}cycle@{alminib\_\discretionary {-}{}{}cycle}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cntcb\_\discretionary {-}{}{}almque@{cntcb\_\discretionary {-}{}{}almque}|hyperpage}{14}
+\indexentry{cntcb\_\discretionary {-}{}{}almque@{cntcb\_\discretionary {-}{}{}almque}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cntcb\_\discretionary {-}{}{}curval@{cntcb\_\discretionary {-}{}{}curval}|hyperpage}{14}
+\indexentry{cntcb\_\discretionary {-}{}{}curval@{cntcb\_\discretionary {-}{}{}curval}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cntinib\_\discretionary {-}{}{}maxval@{cntinib\_\discretionary {-}{}{}maxval}|hyperpage}{14}
+\indexentry{cntinib\_\discretionary {-}{}{}maxval@{cntinib\_\discretionary {-}{}{}maxval}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cntinib\_\discretionary {-}{}{}maxval2@{cntinib\_\discretionary {-}{}{}maxval2}|hyperpage}{14}
+\indexentry{cntinib\_\discretionary {-}{}{}maxval2@{cntinib\_\discretionary {-}{}{}maxval2}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cntinib\_\discretionary {-}{}{}mincyc@{cntinib\_\discretionary {-}{}{}mincyc}|hyperpage}{14}
+\indexentry{cntinib\_\discretionary {-}{}{}mincyc@{cntinib\_\discretionary {-}{}{}mincyc}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cntinib\_\discretionary {-}{}{}tickbase@{cntinib\_\discretionary {-}{}{}tickbase}|hyperpage}{14}
+\indexentry{cntinib\_\discretionary {-}{}{}tickbase@{cntinib\_\discretionary {-}{}{}tickbase}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState@{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}|hyperpage}{14}
+\indexentry{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState@{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ManageState}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons@{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}|hyperpage}{14}
+\indexentry{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons@{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadButtons}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour@{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}|hyperpage}{14}
+\indexentry{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour@{cyclic\_\discretionary {-}{}{}alarm\_\discretionary {-}{}{}ReadColour}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!ipl\_\discretionary {-}{}{}maxisr2@{ipl\_\discretionary {-}{}{}maxisr2}|hyperpage}{14}
+\indexentry{ipl\_\discretionary {-}{}{}maxisr2@{ipl\_\discretionary {-}{}{}maxisr2}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!isrcb\_\discretionary {-}{}{}lastres@{isrcb\_\discretionary {-}{}{}lastres}|hyperpage}{14}
+\indexentry{isrcb\_\discretionary {-}{}{}lastres@{isrcb\_\discretionary {-}{}{}lastres}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!isrinib\_\discretionary {-}{}{}intpri@{isrinib\_\discretionary {-}{}{}intpri}|hyperpage}{14}
+\indexentry{isrinib\_\discretionary {-}{}{}intpri@{isrinib\_\discretionary {-}{}{}intpri}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!ManageState@{ManageState}|hyperpage}{14}
+\indexentry{ManageState@{ManageState}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!ReadButtons@{ReadButtons}|hyperpage}{14}
+\indexentry{ReadButtons@{ReadButtons}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!ReadColour@{ReadColour}|hyperpage}{14}
+\indexentry{ReadColour@{ReadColour}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!rescb\_\discretionary {-}{}{}prevpri@{rescb\_\discretionary {-}{}{}prevpri}|hyperpage}{14}
+\indexentry{rescb\_\discretionary {-}{}{}prevpri@{rescb\_\discretionary {-}{}{}prevpri}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!rescb\_\discretionary {-}{}{}prevres@{rescb\_\discretionary {-}{}{}prevres}|hyperpage}{14}
+\indexentry{rescb\_\discretionary {-}{}{}prevres@{rescb\_\discretionary {-}{}{}prevres}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!resinib\_\discretionary {-}{}{}ceilpri@{resinib\_\discretionary {-}{}{}ceilpri}|hyperpage}{14}
+\indexentry{resinib\_\discretionary {-}{}{}ceilpri@{resinib\_\discretionary {-}{}{}ceilpri}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!SysTimerCnt@{SysTimerCnt}|hyperpage}{14}
+\indexentry{SysTimerCnt@{SysTimerCnt}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tcb\_\discretionary {-}{}{}actcnt@{tcb\_\discretionary {-}{}{}actcnt}|hyperpage}{14}
+\indexentry{tcb\_\discretionary {-}{}{}actcnt@{tcb\_\discretionary {-}{}{}actcnt}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tcb\_\discretionary {-}{}{}curevt@{tcb\_\discretionary {-}{}{}curevt}|hyperpage}{14}
+\indexentry{tcb\_\discretionary {-}{}{}curevt@{tcb\_\discretionary {-}{}{}curevt}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tcb\_\discretionary {-}{}{}curpri@{tcb\_\discretionary {-}{}{}curpri}|hyperpage}{14}
+\indexentry{tcb\_\discretionary {-}{}{}curpri@{tcb\_\discretionary {-}{}{}curpri}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tcb\_\discretionary {-}{}{}lastres@{tcb\_\discretionary {-}{}{}lastres}|hyperpage}{14}
+\indexentry{tcb\_\discretionary {-}{}{}lastres@{tcb\_\discretionary {-}{}{}lastres}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tcb\_\discretionary {-}{}{}next@{tcb\_\discretionary {-}{}{}next}|hyperpage}{14}
+\indexentry{tcb\_\discretionary {-}{}{}next@{tcb\_\discretionary {-}{}{}next}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tcb\_\discretionary {-}{}{}tstat@{tcb\_\discretionary {-}{}{}tstat}|hyperpage}{14}
+\indexentry{tcb\_\discretionary {-}{}{}tstat@{tcb\_\discretionary {-}{}{}tstat}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tcb\_\discretionary {-}{}{}waievt@{tcb\_\discretionary {-}{}{}waievt}|hyperpage}{14}
+\indexentry{tcb\_\discretionary {-}{}{}waievt@{tcb\_\discretionary {-}{}{}waievt}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tinib\_\discretionary {-}{}{}autoact@{tinib\_\discretionary {-}{}{}autoact}|hyperpage}{14}
+\indexentry{tinib\_\discretionary {-}{}{}autoact@{tinib\_\discretionary {-}{}{}autoact}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tinib\_\discretionary {-}{}{}exepri@{tinib\_\discretionary {-}{}{}exepri}|hyperpage}{14}
+\indexentry{tinib\_\discretionary {-}{}{}exepri@{tinib\_\discretionary {-}{}{}exepri}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tinib\_\discretionary {-}{}{}inipri@{tinib\_\discretionary {-}{}{}inipri}|hyperpage}{14}
+\indexentry{tinib\_\discretionary {-}{}{}inipri@{tinib\_\discretionary {-}{}{}inipri}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tinib\_\discretionary {-}{}{}maxact@{tinib\_\discretionary {-}{}{}maxact}|hyperpage}{14}
+\indexentry{tinib\_\discretionary {-}{}{}maxact@{tinib\_\discretionary {-}{}{}maxact}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tinib\_\discretionary {-}{}{}stk@{tinib\_\discretionary {-}{}{}stk}|hyperpage}{14}
+\indexentry{tinib\_\discretionary {-}{}{}stk@{tinib\_\discretionary {-}{}{}stk}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tinib\_\discretionary {-}{}{}stksz@{tinib\_\discretionary {-}{}{}stksz}|hyperpage}{14}
+\indexentry{tinib\_\discretionary {-}{}{}stksz@{tinib\_\discretionary {-}{}{}stksz}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tinib\_\discretionary {-}{}{}task@{tinib\_\discretionary {-}{}{}task}|hyperpage}{14}
+\indexentry{tinib\_\discretionary {-}{}{}task@{tinib\_\discretionary {-}{}{}task}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tnum\_\discretionary {-}{}{}alarm@{tnum\_\discretionary {-}{}{}alarm}|hyperpage}{14}
+\indexentry{tnum\_\discretionary {-}{}{}alarm@{tnum\_\discretionary {-}{}{}alarm}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tnum\_\discretionary {-}{}{}counter@{tnum\_\discretionary {-}{}{}counter}|hyperpage}{14}
+\indexentry{tnum\_\discretionary {-}{}{}counter@{tnum\_\discretionary {-}{}{}counter}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tnum\_\discretionary {-}{}{}exttask@{tnum\_\discretionary {-}{}{}exttask}|hyperpage}{14}
+\indexentry{tnum\_\discretionary {-}{}{}exttask@{tnum\_\discretionary {-}{}{}exttask}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tnum\_\discretionary {-}{}{}isr2@{tnum\_\discretionary {-}{}{}isr2}|hyperpage}{14}
+\indexentry{tnum\_\discretionary {-}{}{}isr2@{tnum\_\discretionary {-}{}{}isr2}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tnum\_\discretionary {-}{}{}resource@{tnum\_\discretionary {-}{}{}resource}|hyperpage}{14}
+\indexentry{tnum\_\discretionary {-}{}{}resource@{tnum\_\discretionary {-}{}{}resource}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}!tnum\_\discretionary {-}{}{}task@{tnum\_\discretionary {-}{}{}task}|hyperpage}{14}
+\indexentry{tnum\_\discretionary {-}{}{}task@{tnum\_\discretionary {-}{}{}task}!kernel_cfg.c@{kernel\_\discretionary {-}{}{}cfg.c}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}id.h@{kernel\_\discretionary {-}{}{}id.h}|hyperpage}{14}
+\indexentry{kernel\_\discretionary {-}{}{}id.h@{kernel\_\discretionary {-}{}{}id.h}!appmode1@{appmode1}|hyperpage}{15}
+\indexentry{appmode1@{appmode1}!kernel_id.h@{kernel\_\discretionary {-}{}{}id.h}|hyperpage}{15}
+\indexentry{lineFollower.c@{lineFollower.c}|hyperpage}{15}
+\indexentry{lineFollower.c@{lineFollower.c}!DeclareCounter@{DeclareCounter}|hyperpage}{16}
+\indexentry{DeclareCounter@{DeclareCounter}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!DeclareTask@{DeclareTask}|hyperpage}{16}
+\indexentry{DeclareTask@{DeclareTask}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!DeclareTask@{DeclareTask}|hyperpage}{16}
+\indexentry{DeclareTask@{DeclareTask}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!DeclareTask@{DeclareTask}|hyperpage}{16}
+\indexentry{DeclareTask@{DeclareTask}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}initialize@{ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}initialize}|hyperpage}{16}
+\indexentry{ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}initialize@{ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}initialize}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}terminate@{ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}terminate}|hyperpage}{16}
+\indexentry{ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}terminate@{ecrobot\_\discretionary {-}{}{}device\_\discretionary {-}{}{}terminate}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!TASK@{TASK}|hyperpage}{16}
+\indexentry{TASK@{TASK}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!TASK@{TASK}|hyperpage}{16}
+\indexentry{TASK@{TASK}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!TASK@{TASK}|hyperpage}{16}
+\indexentry{TASK@{TASK}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.c@{lineFollower.c}!user\_\discretionary {-}{}{}1ms\_\discretionary {-}{}{}isr\_\discretionary {-}{}{}type2@{user\_\discretionary {-}{}{}1ms\_\discretionary {-}{}{}isr\_\discretionary {-}{}{}type2}|hyperpage}{16}
+\indexentry{user\_\discretionary {-}{}{}1ms\_\discretionary {-}{}{}isr\_\discretionary {-}{}{}type2@{user\_\discretionary {-}{}{}1ms\_\discretionary {-}{}{}isr\_\discretionary {-}{}{}type2}!lineFollower.c@{lineFollower.c}|hyperpage}{16}
+\indexentry{lineFollower.h@{lineFollower.h}|hyperpage}{16}
+\indexentry{lineFollower.h@{lineFollower.h}!black\_\discretionary {-}{}{}count@{black\_\discretionary {-}{}{}count}|hyperpage}{17}
+\indexentry{black\_\discretionary {-}{}{}count@{black\_\discretionary {-}{}{}count}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!checked@{checked}|hyperpage}{17}
+\indexentry{checked@{checked}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!color@{color}|hyperpage}{17}
+\indexentry{color@{color}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!color\_\discretionary {-}{}{}cal\_\discretionary {-}{}{}state@{color\_\discretionary {-}{}{}cal\_\discretionary {-}{}{}state}|hyperpage}{17}
+\indexentry{color\_\discretionary {-}{}{}cal\_\discretionary {-}{}{}state@{color\_\discretionary {-}{}{}cal\_\discretionary {-}{}{}state}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!colorCal@{colorCal}|hyperpage}{17}
+\indexentry{colorCal@{colorCal}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!enter\_\discretionary {-}{}{}button@{enter\_\discretionary {-}{}{}button}|hyperpage}{17}
+\indexentry{enter\_\discretionary {-}{}{}button@{enter\_\discretionary {-}{}{}button}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!line\_\discretionary {-}{}{}found@{line\_\discretionary {-}{}{}found}|hyperpage}{17}
+\indexentry{line\_\discretionary {-}{}{}found@{line\_\discretionary {-}{}{}found}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!line\_\discretionary {-}{}{}side@{line\_\discretionary {-}{}{}side}|hyperpage}{17}
+\indexentry{line\_\discretionary {-}{}{}side@{line\_\discretionary {-}{}{}side}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!make\_\discretionary {-}{}{}turn@{make\_\discretionary {-}{}{}turn}|hyperpage}{17}
+\indexentry{make\_\discretionary {-}{}{}turn@{make\_\discretionary {-}{}{}turn}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!old\_\discretionary {-}{}{}color@{old\_\discretionary {-}{}{}color}|hyperpage}{17}
+\indexentry{old\_\discretionary {-}{}{}color@{old\_\discretionary {-}{}{}color}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!random@{random}|hyperpage}{17}
+\indexentry{random@{random}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!run\_\discretionary {-}{}{}button@{run\_\discretionary {-}{}{}button}|hyperpage}{17}
+\indexentry{run\_\discretionary {-}{}{}button@{run\_\discretionary {-}{}{}button}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!search\_\discretionary {-}{}{}time@{search\_\discretionary {-}{}{}time}|hyperpage}{17}
+\indexentry{search\_\discretionary {-}{}{}time@{search\_\discretionary {-}{}{}time}!lineFollower.h@{lineFollower.h}|hyperpage}{17}
+\indexentry{lineFollower.h@{lineFollower.h}!state@{state}|hyperpage}{17}
+\indexentry{state@{state}!lineFollower.h@{lineFollower.h}|hyperpage}{17}

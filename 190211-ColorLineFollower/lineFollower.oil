@@ -1,0 +1,101 @@
+#include "implementation.oil"
+
+CPU ATMEL_AT91SAM7S256
+{
+  OS LEJOS_OSEK
+  {
+    STATUS = EXTENDED;
+    STARTUPHOOK = FALSE;
+    ERRORHOOK = FALSE;
+    SHUTDOWNHOOK = FALSE;
+    PRETASKHOOK = FALSE;
+    POSTTASKHOOK = FALSE;
+    USEGETSERVICEID = FALSE;
+    USEPARAMETERACCESS = FALSE;
+    USERESSCHEDULER = FALSE;
+  };
+
+  /* Definition of application mode */
+  APPMODE appmode1{}; 
+
+  /* Definition of ReadButtons */
+  TASK ReadButtons
+  {
+    AUTOSTART = TRUE { APPMODE = appmode1; };
+    PRIORITY = 4; /* Smaller value means lower priority */
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+    STACKSIZE = 512; /* Stack size */
+  };
+
+  TASK ReadColour
+  {
+    AUTOSTART = FALSE;
+    PRIORITY = 2;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+    STACKSIZE = 512; /* Stack size */ 
+  };
+
+	TASK ManageState
+	{
+		AUTOSTART = FALSE;
+		PRIORITY = 5;
+		ACTIVATION = 1;
+		SCHEDULE = FULL;
+		STACKSIZE = 512;
+	};
+
+  /* Definition of OSEK Alarm Counter */
+  COUNTER SysTimerCnt
+  {
+    MINCYCLE = 1;
+    MAXALLOWEDVALUE = 10000;
+    TICKSPERBASE = 1; /* One tick is equal to 1msec */ 
+  };
+
+  ALARM cyclic_alarm_ReadColour
+  {
+    COUNTER = SysTimerCnt;
+    ACTION = ACTIVATETASK
+    {
+        TASK = ReadColour;
+    };
+    AUTOSTART = TRUE 
+    {
+        ALARMTIME = 1;
+        CYCLETIME = 2; /* executed every 2msec */
+        APPMODE = appmode1;
+    };
+  };
+
+  ALARM cyclic_alarm_ManageState
+  {
+    COUNTER = SysTimerCnt;
+    ACTION = ACTIVATETASK
+    {
+        TASK = ManageState;
+    };
+    AUTOSTART = TRUE 
+    {
+        ALARMTIME = 1;
+        CYCLETIME = 10; /* executed every 2msec */
+        APPMODE = appmode1;
+    };
+  };
+
+  ALARM cyclic_alarm_ReadButtons
+  {
+    COUNTER = SysTimerCnt;
+    ACTION = ACTIVATETASK
+    {
+        TASK = ReadButtons;
+    };
+    AUTOSTART = TRUE 
+    {
+        ALARMTIME = 1;
+        CYCLETIME = 100; /* executed every 2msec */
+        APPMODE = appmode1;
+    };
+  };
+};

@@ -1,0 +1,144 @@
+\hypertarget{lineFollower_8c}{
+\section{lineFollower.c File Reference}
+\label{lineFollower_8c}\index{lineFollower.c@{lineFollower.c}}
+}
+
+
+Main code for an Autonomous Colour Line Following Robot with Area Mapping and Decision Making Abilities.  
+
+
+{\ttfamily \#include \char`\"{}kernel.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}kernel\_\-id.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}ecrobot\_\-interface.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}stdlib.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}defines.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}functions.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}lineFollower.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{lineFollower_8c_a5ed320798edfd93d13f6cf1c7f36b3c5}{DeclareCounter} (\hyperlink{kernel__cfg_8c_a75d5ac51631f79688bff1ebbeb1db0ab}{SysTimerCnt})
+\item 
+\hyperlink{lineFollower_8c_a314ff5ad13628aea17b836adeeb748c3}{DeclareTask} (ReadColour)
+\item 
+\hyperlink{lineFollower_8c_a5d733d90ae70bba046141c26f710791e}{DeclareTask} (ReadButtons)
+\item 
+\hyperlink{lineFollower_8c_a40ed2cf46536f0745144411773c0efe2}{DeclareTask} (ManageState)
+\item 
+void \hyperlink{lineFollower_8c_a94c2fe993222f959d4c60f488500e71a}{ecrobot\_\-device\_\-initialize} (void)
+\item 
+void \hyperlink{lineFollower_8c_ac4ed315d1d2930d74a1f0a2df4a4a7e0}{ecrobot\_\-device\_\-terminate} (void)
+\item 
+void \hyperlink{lineFollower_8c_a1a3fecba0774248495ab7a226e23b9fe}{user\_\-1ms\_\-isr\_\-type2} (void)
+\item 
+\hyperlink{lineFollower_8c_a435b10ed989374468a150869d5517270}{TASK} (ManageState)
+\item 
+\hyperlink{lineFollower_8c_a9a31f6fd13a5162ad47b662dbd8255ca}{TASK} (ReadButtons)
+\item 
+\hyperlink{lineFollower_8c_a3c90971589849deb7bbafd28e1b19e70}{TASK} (ReadColour)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Main code for an Autonomous Colour Line Following Robot with Area Mapping and Decision Making Abilities. \begin{DoxyAuthor}{Author}
+Jack Mitchell 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2011-\/02-\/21 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{lineFollower_8c_a5ed320798edfd93d13f6cf1c7f36b3c5}{
+\index{lineFollower.c@{lineFollower.c}!DeclareCounter@{DeclareCounter}}
+\index{DeclareCounter@{DeclareCounter}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{DeclareCounter}]{\setlength{\rightskip}{0pt plus 5cm}DeclareCounter (
+\begin{DoxyParamCaption}
+\item[{{\bf SysTimerCnt}}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a5ed320798edfd93d13f6cf1c7f36b3c5}
+\hypertarget{lineFollower_8c_a314ff5ad13628aea17b836adeeb748c3}{
+\index{lineFollower.c@{lineFollower.c}!DeclareTask@{DeclareTask}}
+\index{DeclareTask@{DeclareTask}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{DeclareTask}]{\setlength{\rightskip}{0pt plus 5cm}DeclareTask (
+\begin{DoxyParamCaption}
+\item[{ReadColour}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a314ff5ad13628aea17b836adeeb748c3}
+\hypertarget{lineFollower_8c_a40ed2cf46536f0745144411773c0efe2}{
+\index{lineFollower.c@{lineFollower.c}!DeclareTask@{DeclareTask}}
+\index{DeclareTask@{DeclareTask}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{DeclareTask}]{\setlength{\rightskip}{0pt plus 5cm}DeclareTask (
+\begin{DoxyParamCaption}
+\item[{ManageState}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a40ed2cf46536f0745144411773c0efe2}
+\hypertarget{lineFollower_8c_a5d733d90ae70bba046141c26f710791e}{
+\index{lineFollower.c@{lineFollower.c}!DeclareTask@{DeclareTask}}
+\index{DeclareTask@{DeclareTask}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{DeclareTask}]{\setlength{\rightskip}{0pt plus 5cm}DeclareTask (
+\begin{DoxyParamCaption}
+\item[{ReadButtons}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a5d733d90ae70bba046141c26f710791e}
+\hypertarget{lineFollower_8c_a94c2fe993222f959d4c60f488500e71a}{
+\index{lineFollower.c@{lineFollower.c}!ecrobot\_\-device\_\-initialize@{ecrobot\_\-device\_\-initialize}}
+\index{ecrobot\_\-device\_\-initialize@{ecrobot\_\-device\_\-initialize}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{ecrobot\_\-device\_\-initialize}]{\setlength{\rightskip}{0pt plus 5cm}void ecrobot\_\-device\_\-initialize (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a94c2fe993222f959d4c60f488500e71a}
+\hypertarget{lineFollower_8c_ac4ed315d1d2930d74a1f0a2df4a4a7e0}{
+\index{lineFollower.c@{lineFollower.c}!ecrobot\_\-device\_\-terminate@{ecrobot\_\-device\_\-terminate}}
+\index{ecrobot\_\-device\_\-terminate@{ecrobot\_\-device\_\-terminate}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{ecrobot\_\-device\_\-terminate}]{\setlength{\rightskip}{0pt plus 5cm}void ecrobot\_\-device\_\-terminate (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_ac4ed315d1d2930d74a1f0a2df4a4a7e0}
+\hypertarget{lineFollower_8c_a9a31f6fd13a5162ad47b662dbd8255ca}{
+\index{lineFollower.c@{lineFollower.c}!TASK@{TASK}}
+\index{TASK@{TASK}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{TASK}]{\setlength{\rightskip}{0pt plus 5cm}TASK (
+\begin{DoxyParamCaption}
+\item[{ReadButtons}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a9a31f6fd13a5162ad47b662dbd8255ca}
+\hypertarget{lineFollower_8c_a3c90971589849deb7bbafd28e1b19e70}{
+\index{lineFollower.c@{lineFollower.c}!TASK@{TASK}}
+\index{TASK@{TASK}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{TASK}]{\setlength{\rightskip}{0pt plus 5cm}TASK (
+\begin{DoxyParamCaption}
+\item[{ReadColour}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a3c90971589849deb7bbafd28e1b19e70}
+\hypertarget{lineFollower_8c_a435b10ed989374468a150869d5517270}{
+\index{lineFollower.c@{lineFollower.c}!TASK@{TASK}}
+\index{TASK@{TASK}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{TASK}]{\setlength{\rightskip}{0pt plus 5cm}TASK (
+\begin{DoxyParamCaption}
+\item[{ManageState}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a435b10ed989374468a150869d5517270}
+\hypertarget{lineFollower_8c_a1a3fecba0774248495ab7a226e23b9fe}{
+\index{lineFollower.c@{lineFollower.c}!user\_\-1ms\_\-isr\_\-type2@{user\_\-1ms\_\-isr\_\-type2}}
+\index{user\_\-1ms\_\-isr\_\-type2@{user\_\-1ms\_\-isr\_\-type2}!lineFollower.c@{lineFollower.c}}
+\subsubsection[{user\_\-1ms\_\-isr\_\-type2}]{\setlength{\rightskip}{0pt plus 5cm}void user\_\-1ms\_\-isr\_\-type2 (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{lineFollower_8c_a1a3fecba0774248495ab7a226e23b9fe}
